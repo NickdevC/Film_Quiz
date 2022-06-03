@@ -23,3 +23,41 @@
     padding: 0;
     font-family: "Raleway", sans-serif;
 }
+
+.hidden {
+    display: none;
+}
+
+h1 {
+    font-family: "Lobster Two", sans-serif;
+    font-size: 90px;
+    color: var(--dark-emerald);
+}
+
+h2 {
+    font-family: "Lobster Two", sans-serif;
+    font-size: 50px;
+    color: var(--dark-emerald);
+}
+
+.quiz-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: center;
+    padding: 20px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
