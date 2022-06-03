@@ -8,3 +8,91 @@ const progressBarFull = document.getElementById('progressBarFull');
 
 // Declare key variables for running game
 let currentQuestion = {}
+let acceptingAnswers = true
+let score = 0
+let questionCounter = 0
+let availableQuestions = []
+
+// Declare list of questions and answers
+let questions = [
+    {
+        question: "In which film did Ellen Ripley first appear?",
+        choice1: 'Casino Royale',
+        choice2: 'Alien',
+        choice3: 'Titanic',
+        choice4: 'Forest Gump',
+        answer: 2,
+    },
+    {
+        question: "Finish the famous movie line: 'We\'re gonna need a bigger _____'!",
+        choice1: 'boat',
+        choice2: 'mortgage',
+        choice3: 'car',
+        choice4: 'gun',
+        answer: 1,
+    },
+    {
+        question: "In Toy Story, what is the name of Andy's twisted neighbour?",
+        choice1: 'Jim',
+        choice2: 'Mark',
+        choice3: 'Sid',
+        choice4: 'Zac',
+        answer: 3,
+    },
+    {
+        question: "'No luck catching them swans then?' is a quote from what film?",
+        choice1: 'Bridget Jones',
+        choice2: 'Hot Fuzz',
+        choice3: 'Austin Powers',
+        choice4: 'American Pie',
+        answer: 2,
+    },
+    {
+        question: "In Harry Potter, what is the name of the street where the Dursleys live?",
+        choice1: 'Privet Drive',
+        choice2: 'Privet Road',
+        choice3: 'Privet Street',
+        choice4: 'Privet Avenue',
+        answer: 1,
+    },
+    {
+        question: "In The Lion King, what is the name of Simba's uncle?",
+        choice1: 'Jafar',
+        choice2: 'Mufassa',
+        choice3: 'Scratch',
+        choice4: 'Scar',
+        answer: 4,
+    },
+    {
+        question: "Willy Wonka gave out ___ tickets hidden in choclate bars.",
+        choice1: '4',
+        choice2: '8',
+        choice3: '5',
+        choice4: '6',
+        answer: 3,
+    },
+    {
+        question: "Where does Paddington keep his marmalade sandwiches?",
+        choice1: 'In his coat',
+        choice2: 'Under his hat',
+        choice3: 'In his suitcase',
+        choice4: 'Under his arm',
+        answer: 2,
+    },
+    {
+        question: "Will Smith and Martin Lawrence play cops in which film?",
+        choice1: 'Independence Day',
+        choice2: 'Men In Black',
+        choice3: 'Bad Boys',
+        choice4: "Big Momma's House",
+        answer: 3,
+    },
+    {
+        question: "In the film 'The Ring', what item is cursed with the an evil spirit?",
+        choice1: 'A book',
+        choice2: 'A videotape',
+        choice3: 'A videogame',
+        choice4: 'A house',
+        answer: 2,
+    }
+]
