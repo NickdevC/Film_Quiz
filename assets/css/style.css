@@ -28,6 +28,7 @@
     display: none;
 }
 
+/* main headings */
 h1 {
     font-family: "Lobster Two", sans-serif;
     font-size: 90px;
@@ -42,6 +43,7 @@ h2 {
     color: var(--dark-emerald);
 }
 
+/* main quiz container */
 .quiz-container {
     width: 100vw;
     height: 100vh;
@@ -54,6 +56,7 @@ h2 {
     padding: 20px;
 }
 
+/* universal position classes */
 .flex-column {
     display: flex;
     flex-direction: column;
@@ -64,6 +67,7 @@ h2 {
     align-items: center;
 }
 
+/* button styling */
 .btn {
     cursor: pointer;
     font-family: "Lobster Two", sans-serif;
@@ -88,3 +92,18 @@ h2 {
     transition: transform 150ms;
     transform: scale(1.05);
 }
+
+/* stops user from clicking a button without inputting required information */
+.btn[disabled]:hover {
+    cursor: not-allowed;
+    transform: none;
+}
+
+/* font awesome icons */
+.quiz-container i {
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+/* rules page */
+
