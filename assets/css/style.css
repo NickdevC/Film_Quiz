@@ -32,6 +32,8 @@ h1 {
     font-family: "Lobster Two", sans-serif;
     font-size: 90px;
     color: var(--dark-emerald);
+    text-shadow: 5px 5px 5px var(--emerald);
+    margin-bottom: 30px;
 }
 
 h2 {
@@ -60,4 +62,29 @@ h2 {
 .flex-center {
     justify-content: center;
     align-items: center;
+}
+
+.btn {
+    cursor: pointer;
+    font-family: "Lobster Two", sans-serif;
+    font-size: 46px;
+    width: 20rem;
+    padding: 5px;
+    margin-bottom: 6px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    color: var(--white);
+    background-color: var(--light-emerald); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, var(--emerald), var(--dark-emerald));
+    border: none;
+    box-shadow: 5px 5px 5px var(--emerald);
+}
+
+.btn:hover {
+    background-image: none;
+    background-color: var(--light-brown);
+    color: var(--dark-emerald);
+    transition: transform 150ms;
+    transform: scale(1.05);
 }
