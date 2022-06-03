@@ -1,2 +1,25 @@
 /* google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Raleway&display=swap');
+
+:root {
+    /* General colour palette used */
+    --white: rgb(255, 255, 255);
+    --light-emerald: rgb(237, 246, 249);
+    --emerald: rgb(131, 197, 190);
+    --dark-emerald: rgb(0, 109, 119);
+    --light-brown: rgb(255, 221, 210);
+    --brown: rgb(226, 149, 120);
+    
+    /* Background gradient */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: var(--light-emerald); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, var(--light-brown), var(--emerald));
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+}
