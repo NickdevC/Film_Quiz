@@ -209,3 +209,9 @@ li {
     background: var(--dark-emerald);
     width: 0%;
 }
+
+@media screen and (max-width: 768px) {
+    .options-container {
+        min-width: 40rem;
+    }
+}
