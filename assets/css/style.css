@@ -9,6 +9,7 @@
     --dark-emerald: rgb(0, 109, 119);
     --light-brown: rgb(255, 221, 210);
     --brown: rgb(226, 149, 120);
+    --dark-brown: rgb(143, 60, 30);
     
     /* Background gradient */
     background-repeat: no-repeat;
@@ -130,4 +131,35 @@ li {
 
 #rules-container a {
     margin-left: 130px;
+}
+
+/* game page */
+
+/* answer options */
+.options-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 10px;
+    color: var(--white);
+    background-color: var(--light-emerald); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, var(--emerald), var(--dark-emerald));
+    border: none;
+    box-shadow: 5px 5px 5px var(--emerald);
+}
+
+.options-container:hover {
+    background-image: none;
+    background-color: var(--light-brown);
+    color: var(--dark-emerald);
+    transition: transform 150ms;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.option-prefix {
+    padding: 10px 10px;
+    color: var(--dark-brown);
 }
