@@ -52,8 +52,8 @@ h2 {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    max-width: 700px;
-    text-align: center;
+    max-width: 80rem;
+    list-style: none;
     padding: 20px;
 }
 
@@ -118,6 +118,7 @@ h2 {
 
 #rules-container h2 {
     margin-bottom: 20px;
+    text-align: center;
 }
 
 #rules-list {
@@ -130,7 +131,8 @@ li {
 }
 
 #rules-container a {
-    margin-left: 130px;
+    margin-left: 28%;
+    display: block;
 }
 
 /* game page */
@@ -140,6 +142,7 @@ li {
     display: flex;
     width: 100%;
     margin-bottom: 10px;
+    min-width: 80rem;
     text-align: center;
     font-size: 40px;
     border-radius: 10px;
@@ -176,4 +179,33 @@ li {
 
 .incorrect {
     background-color: red;
+}
+
+/* quiz hud */
+#quiz-hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.display-prefix {
+    font-size: 20px;
+    text-align: center;
+}
+
+.display-main-text {
+    text-align: center;
+}
+
+#progressBar {
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid var(--dark-brown);
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progressBarFull {
+    height: 100%;
+    background: var(--dark-emerald);
+    width: 0%;
 }
