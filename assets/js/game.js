@@ -7,13 +7,13 @@ const scoreText = document.getElementById('score');
 const progressBarFull = document.getElementById('progressBarFull');
 
 // Declare key variables for running game
-let currentQuestion = {}
-let acceptingAnswers = true
-let score = 0
-let questionCounter = 0
-let availableQuestions = []
+let currentQuestion = {};
+let acceptingAnswers = true;
+let score = 0;
+let questionsCounter = 0;
+let availableQuestions = [];
 
-// Declare list of questions and answers
+// Declare array of questions and answers
 let questions = [
     {
         question: "In which film did Ellen Ripley first appear?",
@@ -96,3 +96,18 @@ let questions = [
         answer: 2,
     }
 ]
+
+// Declare scoring values
+const scorePoints = 1;
+const maxQuestions = 10;
+
+function startGame() {
+    questionCounter = 0;
+    score = 0;
+    availableQuestions = [...questions];
+    getNewQuestion();
+}
+
+function getNewQuestion() {
+    if(availableQuestions.length === 0 || questionsCounter > maxQuestions)
+}
