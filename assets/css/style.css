@@ -163,3 +163,17 @@ li {
     padding: 10px 10px;
     color: var(--dark-brown);
 }
+
+.option-text {
+    padding: 10px;
+    width: 100%;
+}
+
+/* correct and incorrect effect */
+.correct {
+    background-color: green;
+}
+
+.incorrect {
+    background-color: red;
+}
