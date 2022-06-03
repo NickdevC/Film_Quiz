@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Quiz</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/2c38219dd7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="quiz-container">
+        <div id="game-container" class="flex-column flex-center">
+            <div id="quiz-hud">
+                <div class="display-item">
+                    <p id="questionText" class="display-prefix">
+                        Question
+                    </p>
+                    <div id="progressBar">
+                        <div id="progressBarFull"></div>
+                    </div>
+                </div>
+                <div class="display-item">
+                    <p class="display-prefix">
+                        Score
+                    </p>
+                    <h1 class="display-main-text" id="score">
+                        0
+                    </h1>
+                </div>
+            </div>
+            <div id="question">What is the answer to this question?</div>
+            <div class="options-container">
+                <p class="option-prefix">A</p>
+                <p class="option-text" data-number="1">Option 1</p>
+            </div>
+            <div class="options-container">
+                <p class="option-prefix">B</p>
+                <p class="option-text" data-number="2">Option 2</p>
+            </div>
+            <div class="options-container">
+                <p class="option-prefix">C</p>
+                <p class="option-text" data-number="3">Option 3</p>
+            </div>
+            <div class="options-container">
+                <p class="option-prefix">D</p>
+                <p class="option-text" data-number="4">Option 4</p>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/game.js"></script>
+</body>
+</html>
