@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz End</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/2c38219dd7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="quiz-container">
+        <div id="end" class="flex-column flex-center">
+            <h1 id="final-score">0</h1>
+            <form class="form-container">
+                <h2 id="form-subheading">Enter your name below to save your score:</h2>
+                <input type="text" name="name" id="username" placeholder="Enter your name">
+                <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)" disabled>Save</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
