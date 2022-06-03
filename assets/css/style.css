@@ -112,10 +112,22 @@ h2 {
     background-color: var(--light-brown);
     border-radius: 10px;
     box-shadow: 5px 5px 5px var(--emerald);
-    padding: 10px 20px;
+    padding: 10px 30px;
+}
+
+#rules-container h2 {
+    margin-bottom: 20px;
 }
 
 #rules-list {
     text-align: left;
     font-size: 20px;
+}
+
+li {
+    padding: 10px 0;
+}
+
+#rules-container a {
+    margin-left: 130px;
 }
