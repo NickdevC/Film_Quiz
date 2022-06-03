@@ -116,4 +116,39 @@ function getNewQuestion() {
     questionsCounter++
     questionText.innerText = `Question ${questionsCounter} of ${maxQuestions}`
     progressBarFull.style.width = `${(questionsCounter/maxQuestions) * 100}%`
+
+    const questionsIndex = Math.floor(Math.random() * availableQuestions.length);
+    currentQuestion = availableQuestions[questionsIndex];
+    question.innerText = currentQuestion.question;
+
+    options.forEach(choice => {
+        const number = choice.dataset['number'];
+        choice.innerText = currentQuestion['choice' + number];
+    })
+
+    availableQuestions.splice(questionsIndex, 1);
+    acceptingAnswers = true;
 }
+
+options.forEach(choice => {
+    choice.addEventListener('click', e => {
+        if(!acceptingAnswers) return;
+
+        acceptingAnswers = false;
+        const selectedOption = e.target;
+        const selectedAnswer = selectedOption.dataset['number'];
+
+        let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
+
+        if(classToApply === 'correct') {
+            incrementScore('scorePoints');
+        }
+
+        selectedOption.parentElement.classList.add(classToApply);
+
+        setTimeout(() => {
+            selectedOption.parentElement.classList.remove(classToApply);
+            getNewQuestion();
+        }, 1000)
+    })
+})
