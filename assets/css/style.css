@@ -39,7 +39,7 @@ h1 {
 
 h2 {
     font-family: "Lobster Two", sans-serif;
-    font-size: 50px;
+    font-size: 70px;
     color: var(--dark-emerald);
 }
 
@@ -51,7 +51,7 @@ h2 {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    max-width: 500px;
+    max-width: 700px;
     text-align: center;
     padding: 20px;
 }
@@ -107,3 +107,15 @@ h2 {
 
 /* rules page */
 
+#rules-container {
+    border: 5px solid var(--dark-emerald);
+    background-color: var(--light-brown);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px var(--emerald);
+    padding: 10px 20px;
+}
+
+#rules-list {
+    text-align: left;
+    font-size: 20px;
+}
