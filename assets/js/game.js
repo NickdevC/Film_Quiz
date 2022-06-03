@@ -109,5 +109,11 @@ function startGame() {
 }
 
 function getNewQuestion() {
-    if(availableQuestions.length === 0 || questionsCounter > maxQuestions)
+    if(availableQuestions.length === 0 || questionsCounter > maxQuestions) {
+        localStorage.getItem('mostRecentScore', score)
+        return window.location.assign('/end.html')
+    }
+    questionsCounter++
+    questionText.innerText = `Question ${questionsCounter} of ${maxQuestions}`
+    progressBarFull.style.width = `${(questionsCounter/maxQuestions) * 100}%`
 }
