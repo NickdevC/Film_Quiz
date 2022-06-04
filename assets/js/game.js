@@ -101,6 +101,10 @@ let questions = [
 const scorePoints = 1;
 const maxQuestions = 10;
 
+/**
+ * Loads the game and resets values, score counter
+ * and progress bar
+ */
 function startGame() {
     questionCounter = 0;
     score = 0;
@@ -108,6 +112,12 @@ function startGame() {
     getNewQuestion();
 }
 
+/**
+ * Send user to the final page if max questions
+ * is reached. Logs question counter and progress
+ * of user. Ensures random question is seen by
+ * user and no question is repeated.
+ */
 function getNewQuestion() {
     if(availableQuestions.length === 0 || questionsCounter > maxQuestions) {
         localStorage.getItem('mostRecentScore', score);
@@ -138,6 +148,7 @@ options.forEach(choice => {
         const selectedOption = e.target;
         const selectedAnswer = selectedOption.dataset['number'];
 
+        // Declare variable to apply 'correct' or 'incorrect' styling to button
         let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 
         if(classToApply === 'correct') {
@@ -159,3 +170,22 @@ incrementScore = num => {
 };
 
 startGame();
+
+const userName = document.getElementById('username');
+const saveScoreBtn = document.getElementById('saveScoreBtn');
+const finalScore = document.getElementById('finalScore');
+const mostRecentScore = document.getElementById('mostRecentScore');
+
+const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
+
+const maxHighScores = 5;
+
+finalScore.innerText = mostRecentScore;
+
+userName.addEventListener('keyup', () ==> {
+    saveScoreBtn.disabled = !userName.value;
+})
+
+saveHighScore = e => {
+    e.preventDefault()
+}

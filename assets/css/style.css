@@ -244,6 +244,11 @@ input::placeholder {
     margin-bottom: 10px;
 }
 
+#end i {
+    margin-left: 10px;
+    font-size: 40px;
+}
+
 /* media queries */
 
 @media screen and (max-width: 768px) {
