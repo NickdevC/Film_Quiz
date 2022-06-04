@@ -118,9 +118,9 @@ function startGame() {
  * of user. Ensures random question is seen by
  * user and no question is repeated.
  */
-function getNewQuestion() {
+ getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionsCounter > maxQuestions) {
-        localStorage.getItem('mostRecentScore', score);
+        localStorage.setItem('mostRecentScore', score);
         return window.location.assign('/end.html');
     }
     questionsCounter++;
@@ -170,38 +170,3 @@ incrementScore = num => {
 };
 
 startGame();
-
-const userName = document.getElementById('username');
-const saveScoreBtn = document.getElementById('saveScoreBtn');
-const finalScore = document.getElementById('finalScore');
-const mostRecentScore = document.getElementById('mostRecentScore');
-
-const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
-
-const maxHighScores = 5;
-
-finalScore.innerText = mostRecentScore;
-
-userName.addEventListener('keyup', () => {
-    saveScoreBtn.disabled = !userName.value;
-})
-
-saveHighScore = e => {
-    e.preventDefault();
-
-    const score = {
-        score: mostRecentScore,
-        name: userName.value
-    }
-
-    highScores.push(score);
-
-    highScores.sort((a,b) => {
-        return b.score - a.score;
-    })
-
-    highScores.splice(5);
-
-    localStorage.setItem('highScores', JSON.stringify(highScores));
-    window.location.assign('/');
-}
