@@ -1,4 +1,4 @@
-
+/*jshint sub:true*/
 // Declare const variables for DOM elements
 const question = document.getElementById('question');
 const options = Array.from(document.getElementsByClassName('option-text'));
@@ -95,7 +95,7 @@ let questions = [
         choice4: 'A house',
         answer: 2,
     }
-]
+];
 
 // Declare scoring values
 const scorePoints = 1;
@@ -110,12 +110,12 @@ function startGame() {
 
 function getNewQuestion() {
     if(availableQuestions.length === 0 || questionsCounter > maxQuestions) {
-        localStorage.getItem('mostRecentScore', score)
-        return window.location.assign('/end.html')
+        localStorage.getItem('mostRecentScore', score);
+        return window.location.assign('/end.html');
     }
-    questionsCounter++
-    questionText.innerText = `Question ${questionsCounter} of ${maxQuestions}`
-    progressBarFull.style.width = `${(questionsCounter/maxQuestions) * 100}%`
+    questionsCounter++;
+    questionText.innerText = `Question ${questionsCounter} of ${maxQuestions}`;
+    progressBarFull.style.width = `${(questionsCounter/maxQuestions) * 100}%`;
 
     const questionsIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionsIndex];
@@ -124,7 +124,7 @@ function getNewQuestion() {
     options.forEach(choice => {
         const number = choice.dataset['number'];
         choice.innerText = currentQuestion['choice' + number];
-    })
+    });
 
     availableQuestions.splice(questionsIndex, 1);
     acceptingAnswers = true;
@@ -150,12 +150,12 @@ options.forEach(choice => {
             selectedOption.parentElement.classList.remove(classToApply);
             getNewQuestion();
         }, 1000)
-    })
-})
+    });
+});
 
 incrementScore = num => {
     score +=num;
     scoreText.innerText = score;
-}
+};
 
-startGame()
+startGame();
