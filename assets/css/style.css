@@ -174,11 +174,11 @@ li {
 
 /* correct and incorrect effect */
 .correct {
-    background-color: green;
+    background: green;
 }
 
 .incorrect {
-    background-color: red;
+    background: red;
 }
 
 /* quiz hud */
@@ -254,6 +254,7 @@ input::placeholder {
 #highScoresList {
     list-style: none;
     margin-bottom: 20px;
+    color: var(--dark-brown);
 }
 
 .high-score {
@@ -263,8 +264,35 @@ input::placeholder {
 
 /* media queries */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1295px) {
     .options-container {
         min-width: 40rem;
+    }
+    h1 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    #home-btn {
+        width: 10rem;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .options-container {
+        min-width: 10rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #progressBar {
+        width: 12rem;
+    }
+    .option-text {
+        font-size: 30px;
+    }
+    #highScores a {
+        width: 10rem;
     }
 }
