@@ -121,7 +121,7 @@ function startGame() {
  getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionsCounter > maxQuestions) {
         localStorage.setItem('mostRecentScore', score);
-        return window.location.assign('https://nickdevc.github.io/Film_Quiz/');
+        return window.location.assign('https://nickdevc.github.io/Film_Quiz/end.html');
     }
     questionsCounter++;
     questionText.innerText = `Question ${questionsCounter} of ${maxQuestions}`;
