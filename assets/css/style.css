@@ -249,6 +249,18 @@ input::placeholder {
     font-size: 40px;
 }
 
+/* high scores page */
+
+#highScoresList {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.high-score {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
 /* media queries */
 
 @media screen and (max-width: 768px) {
