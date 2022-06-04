@@ -210,6 +210,42 @@ li {
     width: 0%;
 }
 
+/* end page */
+.form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+}
+
+input {
+    margin-bottom: 5px;
+    width: 20rem;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 5px;
+    border: 2px solid var(--dark-emerald);
+}
+
+input::placeholder {
+    color: var(--brown);
+}
+
+#username {
+    margin-bottom: 10px;
+    width: 100%;
+    outline: none;
+}
+
+#form-subheading {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* media queries */
+
 @media screen and (max-width: 768px) {
     .options-container {
         min-width: 40rem;
