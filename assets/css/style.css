@@ -288,11 +288,30 @@ input::placeholder {
 @media screen and (max-width: 450px) {
     #progressBar {
         width: 12rem;
+        height: 2rem;
     }
-    .option-text {
-        font-size: 30px;
+    .options-container {
+        font-size: 28px;
     }
     #highScores a {
         width: 10rem;
+    }
+    #rules-list {
+        font-size: 15px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    .btn {
+        font-size: 32px;
+    }
+    #rules-container a {
+        margin-left: 18%;
+    }
+    #question {
+        font-size: 38px;
+    }
+    #score {
+        font-size: 30px;
     }
 }
