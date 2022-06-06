@@ -1,10 +1,10 @@
-<h1 align="center"> :basketball: Film Trivia Vault :basketball: </h1>
+<h1 align="center"> :clapper: Film Trivia Vault :clapper: </h1>
 
 [View the live project here](http://nickdevc.github.io/Film_Quiz/)
 
-Insert project description here -->
+Film Trivia Vault is a website that allows users to experience a quiz based on film trivia. It provides a simple, yet rewarding experience by being both aesthetically pleasing and user-friendly. The website has been built with mobile users in mind, and intends to be fully responsive across all devices.
 
-![mockup](documentation/supporting_images/NVV_mockup.jpg)
+![mockup](documentation/Mockup.png)
 
 ## Index - Table of Contents
 *  [Purpose](#purpose)
@@ -20,11 +20,11 @@ Insert project description here -->
 
 The purpose of the website is two-fold:
 
-### 1 - Existing players
-To provide an easily acessible space for existing players to engage with their club; allowing quick access to contact details and relevant, live training/fixtures information
+### 1 - Existing users
+To provide an easily acessible page to test thier film trivia knowledge, celebrate their successes and attempt to beat their previous score. 
 
 ### 2 - New players
-To provide an engaging and appealing space to prospective players, encouraging them to make contact with the club and attend a training session. They need to get a clear sense of brand identity, club ethos, and quickly access a method of communication.
+To provide an engaging and appealing space to prospective users by making the landing page bold and user-friendly. New users will be able to clearly navigate the rules before engaging in the quiz itself. Replayability is actively encouraged.
 
 ## User Experience (UX)
 
@@ -33,40 +33,40 @@ To provide an engaging and appealing space to prospective players, encouraging t
    -  #### 1) First Time Visitor Goals
       
       1. I want to easily understand and access the main purpose of the site
-      2. I want to be able to easily learn more about the organisation represented on the site
-      3. I want to be able to quickly and effectively navigate around the site, viewing basic club information and training schedules
-      4. I want to be able to easily access the location of the organisation
-      5. I want to be able to quickly and efficiently contact the organisation, to request a callback or ask a question
+      2. I want to be able to easily learn about the rules of the game
+      3. I want to be able to quickly and effectively navigate around the quiz, instinctively following the button structure on each page
+      4. I want to be able to easily view my on-going progress
+      5. I want to be able to quickly and efficiently share my score with others
+      6. I want to be able to easily navigate back to the start to replay the game
    
    -  #### 2) Returning Visitor Goals
    
       1. I want to be able to access and navigate the menu quickly and efficiently
-      2. I want to be able to easily check and compare upcoming fixture dates
-      3. I want to be able to quickly contact the organisation with queries
+      2. I want to be able to easily check and compare my score with others
+      3. I want to have the option of viewing the rules before I play
    
    -  #### 3) Frequent User Goals
 
-      1. I want to be able to sign-up to the mailing list for regular club updates
+      1. I want to be able to jump straight into the quiz without navigating unnecessary pages/links
 
 ## Features
 
    ### Existing Features
       
--   __Navigation Bar__
+-   __Home page__
 
-    - The navigation bar has a consistent look and placement on all three pages of the website supporting easy navigation.  It includes a simple Logo, Home page, Fixtures and Training, and Contact links and is responsive on multiple screen sizes.  On medium sized screens (smaller laptops or ipads), the navigation menu moves to under the logo. On small screen sizes (mobile phones), the logo is abbreviated to ensure legibility, accessibility and effective use of space.
-    - In order to make my logo more eye-catching and increase the contrast from the rest of the navigation bar, I applied a white outline to the text.
+    - The landing page is designed to draw the user's eye immediately in, by placing all of the content centered in the viewport. The background colours (consistent throughout the website) are pastel, and non-intrusive meaning that the navigation buttons remain the main focus of the user.
+    - The home page consists of: a title, a 'Start' button, a 'Rules' button, and a 'High Scores' button. All of these buttons are consistent in design and their functions are supported by icons to indicante their purpose.
+    - All buttons have been given hover/transform effects to ensure that users get appropriate feedback when navigating through their options.
 
-      ![Navbar](documentation/supporting_images/NVV_navbar.jpg)
+      ![Navbar](documentation/Home-page.png)
 
--   __Home page - Hero image and call to action__
+-   __Rules page__
 
-    - The landing page consists of a large, iconic hero image, an overlaying inspiration quote, and a button that sends the user to the contacts page.
-    - The image is instantly recognisable, identifying the focus of the website, whilst also conveying a sense of action with the slight zoom animation when the page is loaded by the user.
-    - The overlaying text is designed to engage with users by encouraging them to consider one of the key ethos of the club: teamwork. The text section has been designed to be legible and accessible on all devices with responsive designs in place.
-    - In addition to this, the button (which links directly to the Contact Us page) then encourages the user to make contact and engage directly with the club by opening communication channels (signing up new members is one of the fundamental purposes of the website).
+    - A conscious decision was taken to make the 'Rules' page as simple as possible so as not to detract attention away from the steps-to-play.
+    - Rules have been presented in order to help with the flow of information to the user and their is one button to direct users back to the home page.
 
-      ![Navbar](documentation/supporting_images/NVV_landing.jpg)
+      ![Navbar](documentation/Rules-page.png)
       
 -   __Home page - Tagline__
 
