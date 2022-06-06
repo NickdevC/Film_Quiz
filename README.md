@@ -122,15 +122,23 @@ To provide an engaging and appealing space to prospective users by making the la
    
    #### Home Page Design
    
-   ![Navbar](documentation/design_wireframes/Index.html.png)
+   ![Navbar](documentation/wireframes/Home-page-WF.png)
    
-   #### Fixtures Page Design
+   #### Rules Page Design
    
-   ![Navbar](documentation/design_wireframes/Fixtures.html.png)
+   ![Navbar](documentation/wireframes/Rules-page-WF.png)
    
-   #### Contact Page Design
+   #### Game Page Design
    
-   ![Navbar](documentation/design_wireframes/Contact.html.png)
+   ![Navbar](documentation/wireframes/Game-page-WF.png)
+   
+    #### End Page Design
+   
+   ![Navbar](documentation/wireframes/End-page-WF.png)
+   
+   #### High Scores Page Design
+   
+   ![Navbar](documentation/wireframes/High-scores-WF.png)
 
 ## Technologies Used
 
@@ -138,15 +146,16 @@ To provide an engaging and appealing space to prospective users by making the la
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [Javascript](https://en.wikipedia.org/wiki/Javascript)
 
 ### Frameworks, Libraries & Programs Used
 
 -   [Google Fonts](https://fonts.google.com/)
       - Used to import specific fonts.
-      - The fonts 'Inter' and 'Babas Neue' were used throughout the project and were present all pages.
+      - The fonts 'Lobster Two' and 'Raleway' were used throughout the project and were present on all pages.
 -   [Font Awesome](https://fontawesome.com/)
       - Used to add icons for aesthetic and UX purposes.
-      - The icons were applied to the navigational menu links, footer, and some subheadings
+      - The icons were applied to all usable buttons to clarify purpose.
 -   [Git](https://git-scm.com/)
       - Used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
 -   [GitHub](https://github.com/)
@@ -158,7 +167,7 @@ To provide an engaging and appealing space to prospective users by making the la
 -   [Coolors]((https://coolors.co/)
       - Used to source a colour palette that would link to the club's brand identity.
 -   [Techsini](https://techsini.com/multi-mockup/index.php)
-      - Used to create mockup images of my live website on numerous different devices.
+      - Used to create mockup images of my live website on numerous devices and viewports.
 
 ## Testing
 
