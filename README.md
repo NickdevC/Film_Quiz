@@ -164,7 +164,7 @@ To provide an engaging and appealing space to prospective users by making the la
       - Used to create wireframes during the initial design stages.
 -   [Microsoft Paint](https://apps.microsoft.com/store/detail/paint/9PCFS5B6T72H?hl=en-gb&gl=GB)
       - Used to edit photos/images that would later be deployed to the site.
--   [Coolors]((https://coolors.co/)
+-   [Coolors](https://coolors.co/)
       - Used to source a colour palette that would link to the club's brand identity.
 -   [Techsini](https://techsini.com/multi-mockup/index.php)
       - Used to create mockup images of my live website on numerous devices and viewports.
