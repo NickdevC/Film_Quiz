@@ -83,13 +83,13 @@ To provide an engaging and appealing space to prospective users by making the la
     - User's can input their name and compare their score to other users, encouraging healthy competition and replayability.
     - By clicking 'Save', users are automatically transfered to the home page, once again subconsciously encouraging them to play through the game again in order to beat their previous score.
 
-      ![Navbar](documentation/wesbite-screenshots/End-page.png)
+      ![Navbar](documentation/website-screenshots/End-page.png)
 
 -   __High-scores page__
 
     - This page is automatically updated when user's input their final scores and presents a list (maximum of 5 strings of data) of user names and their corresponding scores.
 
-      ![Navbar](documentation/website-screenshots/Leaderboard-page.png)
+      ![Navbar](documentation/website-screenshots/Leaderboard.png)
 
    ### Potential Future Features
    
