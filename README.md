@@ -4,7 +4,7 @@
 
 Film Trivia Vault is a website that allows users to experience a quiz based on film trivia. It provides a simple, yet rewarding experience by being both aesthetically pleasing and user-friendly. The website has been built with mobile users in mind, and intends to be fully responsive across all devices.
 
-![mockup](documentation/Mockup.png)
+![mockup](documentation/website-screenshots/Mockup.png)
 
 ## Index - Table of Contents
 *  [Purpose](#purpose)
@@ -59,69 +59,47 @@ To provide an engaging and appealing space to prospective users by making the la
     - The home page consists of: a title, a 'Start' button, a 'Rules' button, and a 'High Scores' button. All of these buttons are consistent in design and their functions are supported by icons to indicante their purpose.
     - All buttons have been given hover/transform effects to ensure that users get appropriate feedback when navigating through their options.
 
-      ![Navbar](documentation/Home-page.png)
+      ![Navbar](documentation/website-screenshots/Home-page.png)
 
 -   __Rules page__
 
-    - A conscious decision was taken to make the 'Rules' page as simple as possible so as not to detract attention away from the steps-to-play.
+    - A conscious decision was taken to make the 'Rules' page as simple as possible, so as not to detract attention away from the steps-to-play.
     - Rules have been presented in order to help with the flow of information to the user and their is one button to direct users back to the home page.
 
-      ![Navbar](documentation/Rules-page.png)
+      ![Navbar](documentation/website-screenshots/Rules-page.png)
       
--   __Home page - Tagline__
+-   __Game page__
 
-    - In order to seperate the hero image from the additional 'about' section, I decided to include a tagline to establish the club's prominant position in the local area. It includes an established date and the location.
-    - The tagline is bold, with no additional imagery that could otherwise distract the user from firm message being conveyed.  
+    - The quiz section of the website follows a uniform layout, to ensure that every question maintains the same aesthetic appeal and presents the user with a sense of growing familiarity as they progress.
+    - The questions are presented in bold text, and the answer options are cleary labelled to ensure these are clearly demarcated from each other.
+    - In addition, the user is provided with a running score and a progress bar to allow them to monitor their progress throughout the experience. This encourages healthy competition whilst also reassuring users of the end goal.
+    - All option buttons have been styled with hover/transform effects and also highlight 'green' or 'red' (dependent on the validity of a user's answer) which provides further immediate feedback to the user.
 
-      ![Navbar](documentation/supporting_images/NVV_tagline.jpg)
+      ![Navbar](documentation/website-screenshots/Game-page.png)
       
--   __Home page - About section__
+-   __End page__
 
-    - The about section is designed to give first or returning users the chance to get a basic understanding or 'flavour' of the club.
-    - Three action-driven images help to give the home page more life and vibrancy whilst acting as a window into what the club's day-to-day experience may look like for the user.
-    - Three columns of text act to give the user more specific, detailed information about the clubs structure and their achievements (setting them apart from other competing institutions)
-    - This section has been designed to be repsonsive, switching to a row structure on smaller screen sizes. 
+    - On completion of the final question in the quiz, the user is automatically taken to the final page where they are encouraged through text prompts to enter and share their score on the leaderboard.
+    - User's can input their name and compare their score to other users, encouraging healthy competition and replayability.
+    - By clicking 'Save', users are automatically transfered to the home page, once again subconsciously encouraging them to play through the game again in order to beat their previous score.
 
-      ![Navbar](documentation/supporting_images/NVV_about_images.jpg)
-      
-      ![Navbar](documentation/supporting_images/NVV_about_text.jpg)
+      ![Navbar](documentation/wesbite-screenshots/End-page.png)
 
--   __Footer__
+-   __High-scores page__
 
-    - The footer provides the user with access to four social media links (currently the basketball club only has an active presence on Facebook). These allow users to easily connect with the clubs current trending information, communicate with other players/like-minded people, share their thoughts and engage in recent media. 
+    - This page is automatically updated when user's input their final scores and presents a list (maximum of 5 strings of data) of user names and their corresponding scores.
 
-      ![Navbar](documentation/supporting_images/NVV_footer.jpg)
-      
--   __Fixtures & Training page - Fixtures calendar__
-
-    - One of the core purposes of the website is for current players to be able to access current fixtures information during their training season. These users will regularly be returning to the site and therfore need this information to be easily accessible and easy to navigate. 
-    - I decided to use a table to display this information as columns provided me with clear, seperated spaces for key data. 
-    - There is also some feedback generated for the user in the form of a highlight that applies to a row when the user hovers their pointer over it. This ensures the user can pinpoint a specific row and easily record information that could otherwise be lost in the table. 
-    - The table itself is also responsive and, when displayed on small screens, will provide a scroll bar so that font-size remains legible whilst not compromising on it's prupose or aesthetics.
-
-      ![Navbar](documentation/supporting_images/NVV_fixtures.jpg)
-      
--   __Fixtures & Training page - Training schedule__
-
-    - For first time, or new users, the club training times are simple yet important pieces of information. For this reason, they are displayed in large, bold containers at the bottom of the page.
-
-      ![Navbar](documentation/supporting_images/NVV_training.jpg)
-      
--   __Contact Us page__
-
-    - The contact form on this page is designed to allow users to begin a dialogue with the club and share some of their contact information. For new/potential players, they can easily ask questions, using the text area box, that are personal to their needs, whilst existing players can leave less pressing communication with their coach.
-    - I also included radio buttons which not only allow the organisation to categorise queries, but also provides an opportunity to collect important data regarding usage. In the future, the club could use this information to reveal which type of user makes up the majority of internet traffic on the site and make changes in light of this to boost further traffic.
-
-      ![Navbar](documentation/supporting_images/NVV_contact.jpg)
+      ![Navbar](documentation/website-screenshots/Leaderboard-page.png)
 
    ### Potential Future Features
    
-- Scrolling news/information banner on the home page
-   - This could potentially allow returning users to quickly access the current and more pressing communication from the club
-- News section on the home page
-   - This could directly link to Twitter and offer a live window into the up-to-date social media posts from the club
-- A 'Resources' page
-   - This could provide links to downloadable content that users could access to support their training
+- A running timer
+   - This could potentially add a level of challenge and compeition to the quiz, encouraging further replayability.
+   - This could be further enhanced by reporting the 'finish time' to the user at the end of the quiz.
+- A method of contacting the developer
+   - This could allow users to report bugs but also allow for feedback on a product that has the potential to be regularly updated.
+- A leaderboard that is hosted online
+   - This would allow for a universal leaderboard where users could compare their scores from around the world
 
 ## Design
 
