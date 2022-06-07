@@ -202,7 +202,7 @@ To provide an engaging and appealing space to prospective users by making the la
 
 - Results for 'index.html'
 
-   ![Navbar](documentation/validation-results/)
+   ![Navbar](documentation/validation-results/Home-page-LH.png)
    
 - Results for 'rules.html'
 
@@ -234,16 +234,17 @@ To provide an engaging and appealing space to prospective users by making the la
 ### User Testing
 
 - A total of **8 different users** tested the website across a range of devices including: mobile, tablet and desktop viewports. At the time of testing, the main conclusions drawn were as follows:
-      - All navigational links worked as expected :white_check_mark:
-      - Users were automatically pushed to the next question after answering :white_check_mark:
-      - Questions and answers were not always fully visible on smaller devices :red_circle: 
+      
+     - All navigational links worked as expected :white_check_mark:
+     - Users were automatically pushed to the next question after answering :white_check_mark:
+     - Questions and answers were not always fully visible on smaller devices :red_circle: 
+          - This was later resolved using additional @media queries :white_check_mark:
+     - When selecting answers, users were given visible feedback from answer buttons :white_check_mark:
+     - The progress bar and score counter were not always visible to users on smaller devices :red_circle:
          - This was later resolved using additional @media queries :white_check_mark:
-      - When selecting answers, users were given visible feedback from answer buttons :white_check_mark:
-      - The progress bar and score counter were not always visible to users on smaller devices :red_circle:
-         - This was later resolved using additional @media queries :white_check_mark:
-      - When users reached the end of the quiz, their total was not displayed and they were unable to select the 'save' button (it remained dsiabled) :red_circle:
+     - When users reached the end of the quiz, their total was not displayed and they were unable to select the 'save' button (it remained dsiabled) :red_circle:
          - This was a significant bug and was resolved during the debugging stages (see below) :white_check_mark:
-      - Colours and font remained consistent across all user's devices. Everyone reported that the website was legible and easy to follow :white_check_mark:
+     - Colours and font remained consistent across all user's devices. Everyone reported that the website was legible and easy to follow :white_check_mark:
 
 ### Resolved Bugs
 
