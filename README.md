@@ -175,7 +175,7 @@ To provide an engaging and appealing space to prospective users by making the la
    
 #### HTML
    
-- Result for index.html:
+- Result from [W3C Markup Validation Service](https://validator.w3.org/):
 
    ![Navbar](documentation/validation-results/HTML-Validator.png)
    
@@ -220,8 +220,7 @@ To provide an engaging and appealing space to prospective users by making the la
 
    ![Navbar](documentation/validation-results/Highscores-LH.png)
    
-- Testing using the Lighthouse feature of Google Chrome's Developer Tools was useful in identifying issues with my initial colour choices (contrast was not enough to warrant high accessibility scores). As a result, I was able to change much of the heading elements so that the site was more accessible for all. 
-- In addition to this, I found that my performance score on the fixtures.html page would vary (even on the same device) with no changes being made to the code itself. I am however confident that the page performs on all devices and a range of browsers.
+- Note: the 'performance' indicator on the index.html page would occassionally fluctuate between 90-100 score (seemingly at random). Regardless of this, I am confident that there are no hindering factors when it comes to the website and it's performance
 
 ### Browser Compatibility
 
@@ -234,15 +233,18 @@ To provide an engaging and appealing space to prospective users by making the la
 
 ### Resolved Bugs
 
-- When applying the "float" property to elements positioned above the footer element, I found the footer text would move up the page and overlap other content. Changing/adding attributes and properties within the sections and divs above the footer did not resolve the problem
+- Initially, when users reached the end.html page, the 'diabled' feature of the 'save' button would not be removed when the user had successfully typed in thier name. I noticed that at the same time, the final score was not displaying correctly on the end.html page, and realised that these two issues were intrinsicly linked.
    
-   - Solution: I applied the "clear:both" property to the footer element
+   - Solution: By using [JSHint](https://jshint.com/) and seaking support on the Slack community, I was able to identify that this was the result of a syntax error within my definied variables. I renamed a variable and ensured that the naming convention was consistent with my other variables.
 
-- When creating media queries to allow my navigational bar menu to move under the logo on smaller screen sizes, I found that white space would continue to be created, seperating the navigational bar from the hero image. I initially believed this was due to the way I was applying the "float" property to the navigational bar menu
+- When I deployed the website, buttons that were intended to send the user to other .html pages were not working and returning a '404 error'.
 
-   - Solution: I applied a negative value to the "margin-top" property
-   
-   
+   - Solution: By going through my code and identifying any instances of 'href' links, I was able to see that the shortcut of '/' to send users to the homepage was not working as intended. I changed this to the correct file path. In addition, within my JS, I could see that my 'assigned location' links were not working as intended, and so altered these to now display each page's full address.
+
+### Unresolved Bugs
+
+- Through testing on mobile devices only, I could see that the 'hover' styling remained applied to answers options from the user's previous interaction with a question. This does not prevent the user from playing the game, nor does it override the 'correct' and 'incorrect' styling feedback that the user is designed to see. In future, this is something I could look into changing in order to make the mobile experience match that of desktop.
+ 
 ## Deployment
 
    ### How to deploy
@@ -250,7 +252,7 @@ To provide an engaging and appealing space to prospective users by making the la
 - Go to the GitHub repository and navigate to the 'Settings' tab. Once there, select 'Pages' from the menu
 - Go to the 'Source' menu (drop-down box) and select 'Master Branch'
 - After the page has auto-refreshed, you should see a detailed ribbon display - this demonstrates a successful deployment
-- Now, any changes pushed from GitPod to the master branch will be visible and take effect on the live project [live project link](https://nickdevc.github.io/Nene_Valley_Basketball/index.html)
+- Now, any changes pushed from GitPod to the master branch will be visible and take effect on the live project [live project link](https://nickdevc.github.io/Film_Quiz)
 
    ### How to clone
 
