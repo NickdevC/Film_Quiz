@@ -104,8 +104,10 @@ To provide an engaging and appealing space to prospective users by making the la
 ## Design
 
    ### Colour
-- After carrying out research surrounding the current clubs colours, it was evident that black and gold were the prominent tones that represented Nene Valley Venom.
-- I used [Coolors](https://coolors.co/) to explore different colour schemes that best matched the club's brand and settled on [this](https://coolors.co/palette/000814-001d3d-003566-cca000-f5cc00) palette. Not only did the palette provide a matching gold tone, it also provided an interesting contrast with blacks and dark navy blues.
+- After carrying out research by looking at both existing Code Institute projects, and websites with a similar level of functionality and interactivity, I decided that unobtrusive colours would fit my user's needs. The theory was that by creating a calm, pastel colour scheme, users would be more inclined to relax and enjoy the game; focussing all their attention on the content and the interactivity.
+- I used [Coolors](https://coolors.co/) to explore different colour schemes that best matched the above purpose and settled on [this](https://coolors.co/palette/006d77-83c5be-edf6f9-ffddd2-e29578) palette. I felt the emerald greens and the light browns provided a subtle contrast and that they would provide interesting feedback to the user when used in conjunction with transformations and 'on-click' functions.
+
+   ![Navbar](documentation/website-screenshots/Coolors-quiz-scheme.png)
    
    ### Typography
    
