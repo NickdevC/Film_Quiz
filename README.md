@@ -175,29 +175,21 @@ To provide an engaging and appealing space to prospective users by making the la
    
 #### HTML
    
-- Result for index.html
+- Result for index.html:
 
-   ![Navbar](documentation/validation_results/Testing_HTML_Home.jpg)
-
-- Result for fixtures.html
-
-   ![Navbar](documentation/validation_results/Testing_HTML_Fixtures.jpg)
-
-- Result for contact.html
-
-   ![Navbar](documentation/validation_results/Testing_HTML_Contact.jpg)
+   ![Navbar](documentation/validation-results/HTML-Validator.png)
+   
+   - Note: All html pages returned the same results as the above screenshot
    
 #### CSS
 
-- Result for style.css
+- Result from [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/):
 
-   ![Navbar](documentation/validation_results/Testing_CSS_Result.jpg)
+   ![Navbar](documentation/validation-results/CSS-validator.png)
    
-- Remaining warnings
-   
-   - The remaining two warning are due to a webkit extension for specific browser support
+#### Javascript 
 
-   ![Navbar](documentation/validation_results/Testing_CSS_Warnings.jpg)
+- Results from JSHint:
    
 #### Full Validation Results
 
@@ -208,17 +200,25 @@ To provide an engaging and appealing space to prospective users by making the la
    
 ### Lighthouse Testing   
 
-- Results for index.html
+- Results for 'index.html'
 
-   ![Navbar](documentation/validation_results/Testing_Lighthouse_Home.png)
+   ![Navbar](documentation/validation-results/)
    
-- Results for fixtures.html
+- Results for 'rules.html'
 
-   ![Navbar](documentation/validation_results/Testing_Lighthouse_Fixtures.png)
+   ![Navbar](documentation/validation-results/Rules-page-LH.png)
    
-- Results for contact.html
+- Results for 'game.html'
 
-   ![Navbar](documentation/validation_results/Testing_Lighthouse_Contact.png)
+   ![Navbar](documentation/validation-results/Game-page-LH.png)
+   
+- Results for 'end.html'
+
+   ![Navbar](documentation/validation-results/End-page-LH.png)
+   
+- Results for 'highscores.html'
+
+   ![Navbar](documentation/validation-results/Highscores-LH.png)
    
 - Testing using the Lighthouse feature of Google Chrome's Developer Tools was useful in identifying issues with my initial colour choices (contrast was not enough to warrant high accessibility scores). As a result, I was able to change much of the heading elements so that the site was more accessible for all. 
 - In addition to this, I found that my performance score on the fixtures.html page would vary (even on the same device) with no changes being made to the code itself. I am however confident that the page performs on all devices and a range of browsers.
