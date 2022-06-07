@@ -235,7 +235,7 @@ To provide an engaging and appealing space to prospective users by making the la
 
 - Initially, when users reached the end.html page, the 'diabled' feature of the 'save' button would not be removed when the user had successfully typed in thier name. I noticed that at the same time, the final score was not displaying correctly on the end.html page, and realised that these two issues were intrinsicly linked.
    
-   - Solution: By using [JSHint](https://jshint.com/) and seaking support on the Slack community, I was able to identify that this was the result of a syntax error within my definied variables. I renamed a variable and ensured that the naming convention was consistent with my other variables.
+   - Solution: By using [JSHint](https://jshint.com/) and seeking support on the Slack community, I was able to identify that this was the result of a syntax error within my definied variables. I renamed a variable and ensured that the naming convention was consistent with my other variables.
 
 - When I deployed the website, buttons that were intended to send the user to other .html pages were not working and returning a '404 error'.
 
