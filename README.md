@@ -248,11 +248,11 @@ To provide an engaging and appealing space to prospective users by making the la
 
 ### Resolved Bugs
 
-- Initially, when users reached the end.html page, the 'diabled' feature of the 'save' button would not be removed when the user had successfully typed in thier name. I noticed that at the same time, the final score was not displaying correctly on the end.html page, and realised that these two issues were intrinsicly linked.
+- Initially, when users reached the end.html page, the 'disabled' feature of the 'save' button would not be removed when the user had successfully typed in thier name. I noticed that at the same time, the final score was not displaying correctly on the end.html page, and realised that these two issues were intrinsically linked.
    
    - Solution: By using [JSHint](https://jshint.com/) and seeking support on the Slack community, I was able to identify that this was the result of a syntax error within my definied variables. I renamed a variable and ensured that the naming convention was consistent with my other variables.
 
-- When I deployed the website, buttons that were intended to send the user to other .html pages were not working and returning a '404 error'.
+- When I deployed the website, buttons that were intended to send the user to other .html pages were not working and were returning a '404 error'.
 
    - Solution: By going through my code and identifying any instances of 'href' links, I was able to see that the shortcut of '/' to send users to the homepage was not working as intended. I changed this to the correct file path. In addition, within my JS, I could see that my 'assigned location' links were not working as intended, and so altered these to now display each page's full address.
 
