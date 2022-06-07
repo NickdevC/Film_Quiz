@@ -199,7 +199,7 @@ To provide an engaging and appealing space to prospective users by making the la
 
 - Results from [JSHint](https://jshint.com/):
 
-   ![Navbar](docmentation/validation-results/JSHint-validation.png)
+   ![Navbar](documentation/validation-results/JSHint-validation.png)
    
    - Note: The remaining warnings about undefined variables were not negatively impacting the purpose of my JS code and therefore, I was advised by my mentor at this stage not to alter anything. In future, I would look at how to resolve this issue - potentially by applying a variable of 'const' to these declarations (at this stage I am simply speculating a solution).
    
