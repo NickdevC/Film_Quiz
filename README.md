@@ -56,7 +56,7 @@ To provide an engaging and appealing space to prospective users by making the la
 -   __Home page__
 
     - The landing page is designed to draw the user's eye immediately in, by placing all of the content centered in the viewport. The background colours (consistent throughout the website) are pastel, and non-intrusive meaning that the navigation buttons remain the main focus of the user.
-    - The home page consists of: a title, a 'Start' button, a 'Rules' button, and a 'High Scores' button. All of these buttons are consistent in design and their functions are supported by icons to indicante their purpose.
+    - The home page consists of: a title, a 'Start' button, a 'Rules' button, and a 'High Scores' button. All of these buttons are consistent in design and their functions are supported by icons to indicate their purpose.
     - All buttons have been given hover/transform effects to ensure that users get appropriate feedback when navigating through their options.
 
       ![Navbar](documentation/website-screenshots/Home-page.png)
@@ -82,31 +82,32 @@ To provide an engaging and appealing space to prospective users by making the la
     - On completion of the final question in the quiz, the user is automatically taken to the final page where they are encouraged through text prompts to enter and share their score on the leaderboard.
     - User's can input their name and compare their score to other users, encouraging healthy competition and replayability.
     - By clicking 'Save', users are automatically transfered to the home page, once again subconsciously encouraging them to play through the game again in order to beat their previous score.
+    - I also ensured that the 'Save' button would remain in a disabled state until the user took action and wrote a value in the input box. This was to stop accidental, or non-desirable values being sent to the leaderboard.
 
       ![Navbar](documentation/website-screenshots/End-page.png)
 
 -   __High-scores page__
 
-    - This page is automatically updated when user's input their final scores and presents a list (maximum of 5 strings of data) of user names and their corresponding scores.
+    - This page is automatically updated when users input their final scores and presents a list (maximum of 5 strings of data) of user names and their corresponding scores.
 
       ![Navbar](documentation/website-screenshots/Leaderboard.png)
 
    ### Potential Future Features
    
 - A running timer
-   - This could potentially add a level of challenge and compeition to the quiz, encouraging further replayability.
-   - This could be further enhanced by reporting the 'finish time' to the user at the end of the quiz.
+   - This could potentially add a level of challenge and competition to the quiz, encouraging further replayability.
+   - This could be further enhanced by reporting the 'finish time' to the user at the end of the quiz, providing an additional competitive goal.
 - A method of contacting the developer
    - This could allow users to report bugs but also allow for feedback on a product that has the potential to be regularly updated.
 - A leaderboard that is hosted online
-   - This would allow for a universal leaderboard where users could compare their scores from around the world
+   - This would allow for a universal leaderboard where users could compare their scores from around the world, enabling greater scope and connectivity.
 
 ## Design
 
    ### Colour
-- After carrying out research by looking at both existing Code Institute projects, and websites with a similar level of functionality and interactivity, I decided that unobtrusive colours would fit my user's needs. The theory was that by creating a calm, pastel colour scheme, users would be more inclined to relax and enjoy the game; focussing all their attention on the content and the interactivity.
-- I used [Coolors](https://coolors.co/) to explore different colour schemes that best matched the above purpose and settled on [this](https://coolors.co/palette/006d77-83c5be-edf6f9-ffddd2-e29578) palette. I felt the emerald greens and the light browns provided a subtle contrast and that they would provide interesting feedback to the user when used in conjunction with transformations and 'on-click' functions.
-- These colours were also used to create gradient effects that run throughout the website and help to create a sense of unique identity linked to the website.
+- After carrying out research by looking at both existing Code Institute projects, and websites with a similar level of functionality and interactivity, I decided that unobtrusive colours would fit my users' needs. The theory was that by creating a calm, pastel colour scheme, users would be more inclined to relax and enjoy the game; focussing all their attention on the content and the interactivity.
+- I used [Coolors](https://coolors.co/) to explore different colour schemes that best matched the above purpose and settled on [this](https://coolors.co/palette/006d77-83c5be-edf6f9-ffddd2-e29578) palette. I felt the emerald greens and the light browns provided a subtle contrast and that they would provide aesthetically pleasing feedback to the user when used in conjunction with transformations and 'on-click' functions.
+- These colours were also used to create gradient effects that run throughout the website and help to create a sense of unique identity/brand linked to the website.
 
    ![Navbar](documentation/website-screenshots/Coolors-quiz-scheme.png)
    
@@ -170,9 +171,11 @@ To provide an engaging and appealing space to prospective users by making the la
 -   [Microsoft Paint](https://apps.microsoft.com/store/detail/paint/9PCFS5B6T72H?hl=en-gb&gl=GB)
       - Used to edit screenshots for use in the README file.
 -   [Coolors](https://coolors.co/)
-      - Used to source a colour palette that would link to the club's brand identity.
+      - Used to source a colour palette that would link to the purpose of the site and support the overall user experience.
 -   [Techsini](https://techsini.com/multi-mockup/index.php)
       - Used to create mockup images of my live website on numerous devices and viewports.
+-   [Favicon.cc](https://www.favicon.cc/)
+      - Used to create my favicon image.
 
 ## Testing
 
@@ -196,7 +199,9 @@ To provide an engaging and appealing space to prospective users by making the la
 
 - Results from [JSHint](https://jshint.com/):
 
-   ![Navbar](docmentation/validation-results/)
+   ![Navbar](docmentation/validation-results/JSHint-validation.png)
+   
+   - Note: The remaining warnings about undefined variables were not negatively impacting the purpose of my JS code and therefore, I was advised by my mentor at this stage not to alter anything. In future, I would look at how to resolve this issue - potentially by applying a variable of 'const' to these declarations (at this stage I am simply speculating a solution).
    
 ### Lighthouse Testing   
 
