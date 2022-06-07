@@ -138,7 +138,7 @@ function startGame() {
 
     availableQuestions.splice(questionsIndex, 1);
     acceptingAnswers = true;
-}
+};
 
 options.forEach(choice => {
     choice.addEventListener('click', e => {
@@ -160,7 +160,7 @@ options.forEach(choice => {
         setTimeout(() => {
             selectedOption.parentElement.classList.remove(classToApply);
             getNewQuestion();
-        }, 1000)
+        }, 1000);
     });
 });
 
