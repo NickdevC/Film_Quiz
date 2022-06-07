@@ -256,7 +256,7 @@ To provide an engaging and appealing space to prospective users by making the la
 
    ### How to clone
 
-- Go to the following repository on GitHub: https://nickdevc.github.io/Nene_Valley_Basketball/index.html
+- Go to the following repository on GitHub: https://github.com/NickdevC/Film_Quiz
 - At the top right of the screen, click the 'Code' button, and then click 'HTTPs'
 - Copy the link in this field
 - In GitPod, open a new GitBash terminal and go to the directory where you want to find the clone
@@ -267,20 +267,19 @@ To provide an engaging and appealing space to prospective users by making the la
 
   ### Photos
   
--  'Hero image' - Photo from 'Pixabay'
--  'Youth basketball' image - Photo by <a href="https://unsplash.com/@tjump?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nik Shuliahin</a> on <a href="https://unsplash.com/s/photos/youth-basketball?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
--  'Senior player holding ball' image - [Photo by Mídia from Pexels](https://www.pexels.com/photo/man-in-gray-sleeveless-shirt-carrying-white-and-brown-spalding-basketball-974509/)
--  'Senior player performing a layup' image - [Photo by Wallace Chuck from Pexels](https://www.pexels.com/photo/basketball-players-2874717/)
+-  Note: No photos/image were used in this project
   
 
   ### Code
   
--  'How to outline text' - SlackOverflow
--  'How to animate an image' - Love Running (Code Institute project)
--  Inspiration for structuring a README file from [Elainebroche-dev's githubproject](http://github.com/elainebroche-dev/ms1-thrive)
--  Support with aligning images using [float](https://www.w3schools.com/howto/howto_css_images_side_by_side.asp)
--  My mentor Martina for specific support regarding Git commands and using 'Git pull'
+-  'How to apply gradient backgrounds' - [W3Schools](https://www.w3schools.com/css/css3_gradients.asp)
+-  Guidance on the use of single vs multi-line comments in JS - [Stack Overflow](https://stackoverflow.com/questions/19080730/why-the-distinction-between-single-line-and-multi-line-comments)
+-  Guidance on the use of commits (based on feedback from my first project) - [Cbeams](https://cbea.ms/git-commit/)
+-  Guidance on structuring my JS files and extra learning regarding JS functions - [Brian Design (Youtube tutorial)](https://www.youtube.com/watch?v=f4fB9Xg2JEY)
+-  Further inspiration for layout and quiz functionality - [Web Dev Simplified (Youtube tutorial)](https://www.youtube.com/watch?v=riDzcEQbX6k)
+-  Inspiration for writing my ReadMe file - [Daferia (Github user)](https://github.com/Daferia/ultimate_Quiz_P2)
+-  My mentor Martina for specific support regarding: using JSHint, guidance with 'resetting' certain functions in JS, and highlighting 'good' examples of previous projects.
 
 ### Acknowledgements
 
-- I want to say thank you to my mentor Martina, who consistently gave me good advice, valuable challenge, and helped me keep things in perspective throughout the project.
+- I want to say a special 'thank you' to my mentor, Martina, who has not only supported with specific code-related queries, but has also given me realistic perspective that has helped me to maintain focus and motivation during the project.
