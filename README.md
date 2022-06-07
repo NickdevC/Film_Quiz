@@ -106,19 +106,16 @@ To provide an engaging and appealing space to prospective users by making the la
    ### Colour
 - After carrying out research by looking at both existing Code Institute projects, and websites with a similar level of functionality and interactivity, I decided that unobtrusive colours would fit my user's needs. The theory was that by creating a calm, pastel colour scheme, users would be more inclined to relax and enjoy the game; focussing all their attention on the content and the interactivity.
 - I used [Coolors](https://coolors.co/) to explore different colour schemes that best matched the above purpose and settled on [this](https://coolors.co/palette/006d77-83c5be-edf6f9-ffddd2-e29578) palette. I felt the emerald greens and the light browns provided a subtle contrast and that they would provide interesting feedback to the user when used in conjunction with transformations and 'on-click' functions.
+- These colours were also used to create gradient effects that run throughout the website and help to create a sense of unique identity linked to the website.
 
    ![Navbar](documentation/website-screenshots/Coolors-quiz-scheme.png)
    
    ### Typography
    
-- [Google Fonts](https://fonts.google.com/) was used to source scripts that would be legible, link to the brand identity of the club, and also relate to the wider 'sporting world'.
-- 'Babas Neue' was chosen for all headings, subheadings and the logo. The font is not only bold and dominant (much like the club), it also speaks to vintage sports clothing associated with basketball teams from the 20th century. In order to make this font even more impactful, I was able to apply an outline to the logo, making the text jump off the navigation bar.
-- 'Inter' was chosen for all remaining text elements. It is simplistic in design, easily legible, and also does not detract from the impact of the attention-grabbing headings.
-   
-   ### Imagery
-
-- The large hero image was chosen as it conveyed a sense of success for both potential and returning players. I also chose the image because it gives a sense of familiarity to the target audience of the website.
-- The three images on the home page were chosen as they not only conveyed a sense of action and pace, but also, in some cases reflected the colour scheme and brand identity of the club.
+- [Google Fonts](https://fonts.google.com/) was used to source scripts that would be legible, evoke a sense of playfulness, and not detract from the user's ability to navigate the functionality of the website.
+- 'Lobster Two' was chosen for all headings, subheadings, buttons and questions. The font is not only bold and eye-catching but, due to it's curving and flowing style, it also helps to evoke the 'playful' aspect that I hoped to promote to the user. In order to make this font even more impactful, I was able to apply a drop-shadow that was in-keeping with the overall colour palette.
+- 'Raleway' was chosen for all remaining text elements. It is simplistic in design, easily legible, and also does not detract from the impact of the attention-grabbing headings.
+  
    
    ### Initial Wireframe Plans
    
@@ -164,8 +161,14 @@ To provide an engaging and appealing space to prospective users by making the la
       - Used as the respository for the projects code after being pushed from Git.
 -   [Balsamiq](https://balsamiq.com/)
       - Used to create wireframes during the initial design stages.
+-   [W3C Markup Validation Service](https://validator.w3.org/)
+      - Used to validate HTML.
+-   [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+      - Used to validate CSS.
+-   [JSHint](https://jshint.com/)
+      - Used to validate Javascript.
 -   [Microsoft Paint](https://apps.microsoft.com/store/detail/paint/9PCFS5B6T72H?hl=en-gb&gl=GB)
-      - Used to edit photos/images that would later be deployed to the site.
+      - Used to edit screenshots for use in the README file.
 -   [Coolors](https://coolors.co/)
       - Used to source a colour palette that would link to the club's brand identity.
 -   [Techsini](https://techsini.com/multi-mockup/index.php)
@@ -191,14 +194,9 @@ To provide an engaging and appealing space to prospective users by making the la
    
 #### Javascript 
 
-- Results from JSHint:
-   
-#### Full Validation Results
+- Results from [JSHint](https://jshint.com/):
 
-- [HTML Results - index.html](https://github.com/NickdevC/Nene_Valley_Basketball/blob/main/documentation/validation_results/W3_HTML_Validator_results_Home.pdf)
-- [HTML Results - fixtures.html](https://github.com/NickdevC/Nene_Valley_Basketball/blob/main/documentation/validation_results/W3_HTML_Validator_results_Fixtures.pdf)
-- [HTML Results - contact.html](https://github.com/NickdevC/Nene_Valley_Basketball/blob/main/documentation/validation_results/W3_HTML_Validator_results_Contact.pdf)
-- [CSS Results - style.css](https://github.com/NickdevC/Nene_Valley_Basketball/blob/main/documentation/validation_results/W3C_CSS_Validator_results.pdf)
+   ![Navbar](docmentation/validation-results/)
    
 ### Lighthouse Testing   
 
@@ -232,6 +230,20 @@ To provide an engaging and appealing space to prospective users by making the la
    - Microsoft Edge - Version 100.0.1185.50 (Official build) (64-bit)
    - Mozilla FIrefox - Version 99.0.1 (64-bit)
    - Safari - Version 13.1.3 (15609.4.1)
+
+### User Testing
+
+- A total of **8 different users** tested the website across a range of devices including: mobile, tablet and desktop viewports. At the time of testing, the main conclusions drawn were as follows:
+      - All navigational links worked as expected :white_check_mark:
+      - Users were automatically pushed to the next question after answering :white_check_mark:
+      - Questions and answers were not always fully visible on smaller devices :red_circle: 
+         - This was later resolved using additional @media queries :white_check_mark:
+      - When selecting answers, users were given visible feedback from answer buttons :white_check_mark:
+      - The progress bar and score counter were not always visible to users on smaller devices :red_circle:
+         - This was later resolved using additional @media queries :white_check_mark:
+      - When users reached the end of the quiz, their total was not displayed and they were unable to select the 'save' button (it remained dsiabled) :red_circle:
+         - This was a significant bug and was resolved during the debugging stages (see below) :white_check_mark:
+      - Colours and font remained consistent across all user's devices. Everyone reported that the website was legible and easy to follow :white_check_mark:
 
 ### Resolved Bugs
 
